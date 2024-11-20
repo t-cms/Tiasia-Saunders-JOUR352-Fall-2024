@@ -1,0 +1,43 @@
+body {
+  background-color: grey;
+}
+
+p {font-size: 18px; 
+    
+}
+
+h1{font-family: "Migra", serif; text-align:center;
+    
+    
+}
+
+h4{font-family:"Migra", serif}
+hr { color: #ebeced; }
+
+h2{font-family: "Migra", serif;}
+
+#quotes {background-color: black; color:white;}
+#quotes {border-color:white; border-left:100px}
+ 
+    
+    
+}
+
+img {  width: 70%;
+        border-radius: 50px;}
+
+blockquote {color:white,}
+
+cite{color:white}
+
+#segway {background-color:black; color:white;}
+
+#row{background-color:black; color:white;
+    
+    
+}
+
+
+
+
+
