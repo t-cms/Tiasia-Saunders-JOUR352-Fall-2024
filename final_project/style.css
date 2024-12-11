@@ -8,9 +8,14 @@
     }
 
     h1 {
-        font-family: "Migra", serif;
-        text-align: center;
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+          text-align: center;
     }
+}
+
+      
 
     h4 {
         font-family: "Migra", serif;
@@ -21,6 +26,11 @@
         height: 12px;
         background: #008085;
         margin: 20px 0;
+    }
+
+    #map {
+        margin: auto;
+        text-align: center;
     }
 
     h2 {
@@ -45,11 +55,57 @@
         margin: auto;
         text-align: center;
     }
+    
+    #second_pic {
+        
+        width: 100%; 
+        
+    }
+    
+    #third_pic {
+        width:100%; 
+    }
 
     #story {
         width: 100%;
         margin: auto;
+        background-color: white;
+           font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+
+    #story_1 {
+        width: 100%;
+        margin: auto;
         font-family: "Oswald", sans-seri;
+        background-color: white;
+    }
+
+    #story_2 {
+        width: 100%;
+        margin: auto;
+        font-family: "Oswald", sans-seri;
+        background-color: white;
+        color: black;
+    }
+
+    #story_3 {
+        width: 100%;
+        margin: auto;
+        font-family: "Oswald", sans-seri;
+        background-color: white;
+        color: black;
+    }
+
+    #story_4 {
+        width: 100%;
+        margin: auto;
+        text-align; 
+        font-family: "Oswald", sans-seri;
+        background-color: white;
+        color: black;
     }
 
     blockquote {
@@ -72,9 +128,10 @@
         text-align: center;
     }
 
-    #segway {
+#segway {
         background-color: #008085;
         color: white;
+        margin:auto; 
     }
 
     #extra {
@@ -87,4 +144,21 @@
     #story {
         width: 60%;
     }
+    
+    #img {width: 60%;}
+    #story_1 { width: 60%;}
+    
+    #story_2 { width: 60%; }
+    
+    #story_3 {width: 60%;}
+    
+    #story_4 {width: 60%; }
+    
+    #quotes {width:60%;}
+    
+    #extra {width:60%; }
+    
+    #second_pic { width: 60%;}
+    
+    #segway {width: 60%;}
 }
