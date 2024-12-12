@@ -8,18 +8,16 @@
     }
 
     h1 {
-  font-family: "Tinos", serif;
-  font-weight: 700;
-  font-style: normal;
-          text-align: center;
+        font-family: "Tinos", serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
     }
-}
 
-      
-
-    h4 {
+    h4, h2 {
         font-family: "Migra", serif;
     }
+
     hr {
         color: #008085;
         border: none;
@@ -33,9 +31,6 @@
         text-align: center;
     }
 
-    h2 {
-        font-family: "Migra", serif;
-    }
     #topper {
         text-align: center;
     }
@@ -43,10 +38,7 @@
     #quotes {
         background-color: #008085;
         color: white;
-    }
-    #quotes {
-        border-color: white;
-        border-left: 100px;
+        border-left: 100px solid white;
     }
 
     img {
@@ -55,57 +47,22 @@
         margin: auto;
         text-align: center;
     }
-    
-    #second_pic {
-        
-        width: 100%; 
-        
+
+    #second_pic, #third_pic {
+        width: 120%;
     }
-    
-    #third_pic {
-        width:100%; 
+
+    #story, #story_1, #story_2, #story_3, #story_4 {
+        width: 100%;
+        margin: auto;
+        background-color: white;
+        font-family: "Tinos", serif;
+        color: black;
     }
 
     #story {
-        width: 100%;
-        margin: auto;
-        background-color: white;
-           font-family: "Tinos", serif;
         font-weight: 400;
         font-style: normal;
-    }
-    
-
-    #story_1 {
-        width: 100%;
-        margin: auto;
-        font-family: "Oswald", sans-seri;
-        background-color: white;
-    }
-
-    #story_2 {
-        width: 100%;
-        margin: auto;
-        font-family: "Oswald", sans-seri;
-        background-color: white;
-        color: black;
-    }
-
-    #story_3 {
-        width: 100%;
-        margin: auto;
-        font-family: "Oswald", sans-seri;
-        background-color: white;
-        color: black;
-    }
-
-    #story_4 {
-        width: 100%;
-        margin: auto;
-        text-align; 
-        font-family: "Oswald", sans-seri;
-        background-color: white;
-        color: black;
     }
 
     blockquote {
@@ -114,8 +71,7 @@
         font-style: italic;
         color: #ffffff;
         border-left: 5px solid #ffd700;
-        background-color: rgba;
-
+        background-color: rgba(255, 255, 255, 0.1);
         padding: 15px 20px;
         margin: 20px 0;
         line-height: 1.6;
@@ -128,37 +84,24 @@
         text-align: center;
     }
 
-#segway {
-        background-color: #008085;
-        color: white;
-        margin:auto; 
-    }
-
-    #extra {
+    #segway, #extra {
         background-color: #008085;
         color: white;
         margin: auto;
+        font-family: "Tinos", serif;
+        font-weight: 700;
+        font-style: normal;
     }
 }
+
 @media (min-width: 576px) {
-    #story {
+    #story, #story_1, #story_2, #story_3, #story_4,
+    #quotes, #extra, #second_pic, #segway {
         width: 60%;
     }
-    
-    #img {width: 60%;}
-    #story_1 { width: 60%;}
-    
-    #story_2 { width: 60%; }
-    
-    #story_3 {width: 60%;}
-    
-    #story_4 {width: 60%; }
-    
-    #quotes {width:60%;}
-    
-    #extra {width:60%; }
-    
-    #second_pic { width: 60%;}
-    
-    #segway {width: 60%;}
+
+    #img {
+        width: 60%;
+    }
 }
+
